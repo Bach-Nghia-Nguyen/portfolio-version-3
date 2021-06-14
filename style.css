@@ -2,4 +2,6 @@
 @import "./stylesheets/_variables.css";
 @import "./stylesheets/_global.css";
 @import "./stylesheets/_navigationBar.css";
+@import "./stylesheets/_scrollBar.css";
 @import "./stylesheets/_home.css";
+@import "./stylesheets/_about.css";
