@@ -1,0 +1,49 @@
+.home {
+  border: 1px dotted red;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  color: #222435;
+  display: flex;
+  align-items: center;
+  background-color: var(--bg-color);
+  background: url("/images/background2.png") no-repeat;
+  background-size: cover;
+  background-position: right center;
+}
+
+.home-text {
+  max-width: 500px;
+}
+
+.home-text h1 {
+  font-size: var(--h1-font);
+  letter-spacing: var(--spacing);
+}
+
+.home-text span {
+  color: var(--primary);
+}
+
+.home-text h2 {
+  font-size: var(--h2-font);
+  margin: var(--m-1);
+  letter-spacing: var(--spacing);
+}
+
+.home-text p {
+  font-size: var(--p-font);
+  margin-bottom: var(--m-4);
+  line-height: 22px;
+  max-width: 71%;
+}
+
+.home-text .contact-btn {
+  padding: 10px 22px;
+  background: var(--primary);
+  color: #fff;
+}
+
+.home-text .contact-btn:hover {
+  background: var(--hover);
+}
