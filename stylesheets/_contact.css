@@ -71,3 +71,9 @@
   letter-spacing: 1px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+  .contact .contact-content {
+    flex-direction: column;
+  }
+}

@@ -15,5 +15,11 @@ html {
 }
 
 section {
-  padding: 50px 100px;
+  padding: 50px 80px;
+}
+
+@media screen and (max-width: 991px) {
+  section {
+    padding: 50px 20px;
+  }
 }

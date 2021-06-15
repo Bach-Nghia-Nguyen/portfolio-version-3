@@ -46,3 +46,24 @@
 .home-text .contact-btn:hover {
   background: var(--hover);
 }
+
+@media screen and (max-width: 768px) {
+  .home {
+    background: #e7eafb;
+    justify-content: center;
+  }
+  .home-text {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .home-text p {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .home-text {
+    max-width: 225px;
+  }
+}

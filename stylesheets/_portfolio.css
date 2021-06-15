@@ -56,3 +56,9 @@
   font-size: var(--p-font);
   font-weight: 400;
 }
+
+@media screen and (max-width: 820px) {
+  .portfolio .p-box {
+    flex: 1;
+  }
+}

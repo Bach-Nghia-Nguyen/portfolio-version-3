@@ -4,6 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  /* border: 1px solid salmon; */
 }
 
 .about-img {
@@ -47,4 +48,29 @@
 
 .about-text .download-btn:hover {
   background: var(--hover);
+}
+
+@media screen and (max-width: 991px) {
+  .about {
+    justify-content: space-around;
+  }
+  .about-text {
+    margin-left: 15px;
+    max-width: 444px;
+  }
+
+  .about-img {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    flex-direction: column;
+  }
+
+  .about-text {
+    margin: 20px 0;
+  }
 }
